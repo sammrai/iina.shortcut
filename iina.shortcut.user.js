@@ -62,7 +62,7 @@
             const currentTime = getCurrentTime();
             const videoUrl = `https://www.youtube.com/watch?v=${videoId}`;
             const urlWithTime = `${videoUrl} ${currentTime}`;
-            const iinaUrl = `shortcuts://run-shortcut?name=open_iina&input=${encodeURIComponent(urlWithTime)}`;
+            const iinaUrl = `shortcuts://run-shortcut?name=iina.shortcut&input=${encodeURIComponent(urlWithTime)}`;
 
             // 動画を一時停止
             pauseVideo();
